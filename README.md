@@ -1,11 +1,11 @@
 # Thank you for the oppotunity 
 # By Brandon Pearman
 
-##considerations
+## considerations
 Not thread safe at the moment, would need to add locks/concurrent dictionary and similar stuff. Alternatively could use something like Akka but would not want to add extra dependencies on a library which would force it on the developers using it.
 In general would prefer to use as little dependencies in the library as possible for that reason.
 
-##Performance
+## Performance
 While performance was kept in mind no performance tests are included. Benchmarks could be run to get an idea of its performance, but benchmarks real value would be best over long term to see if new changes affected the performance.
 Instead of creating an actual int[][] which would be more memory intensive, I opted for only storing the boundaries and check those.
 
