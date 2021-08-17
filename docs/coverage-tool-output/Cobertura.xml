@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.9968847352024922" branch-rate="1" lines-covered="320" lines-valid="321" branches-covered="52" branches-valid="52" complexity="97" version="0" timestamp="1629235022">
+  <sources>
+    <source>C:\Users\devel\</source>
+  </sources>
+  <packages>
+    <package name="RocketLandingCoordinator" line-rate="1" branch-rate="1" complexity="71">
+      <classes>
+        <class name="RocketLandingCoordinator.Area" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\Models\Area.cs" line-rate="1" branch-rate="1" complexity="21">
+          <methods>
+            <method name="get_Top" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="113" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Left" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="114" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Bottom" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="107" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Right" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="107" branch="false" />
+              </lines>
+            </method>
+            <method name="Surrounds" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="39" hits="19" branch="false" />
+                <line number="40" hits="19" branch="true" condition-coverage="100% (6/6)" />
+                <line number="41" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="DoesOverLap" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="44" hits="11" branch="false" />
+                <line number="45" hits="11" branch="true" condition-coverage="100% (6/6)" />
+                <line number="46" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="17" hits="44" branch="false" />
+                <line number="18" hits="44" branch="false" />
+                <line number="19" hits="44" branch="true" condition-coverage="100% (4/4)" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="24" hits="42" branch="false" />
+                <line number="25" hits="42" branch="false" />
+                <line number="26" hits="42" branch="false" />
+                <line number="27" hits="42" branch="false" />
+                <line number="28" hits="42" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="71" branch="false" />
+                <line number="31" hits="71" branch="false" />
+                <line number="32" hits="71" branch="false" />
+                <line number="33" hits="71" branch="false" />
+                <line number="34" hits="71" branch="false" />
+                <line number="35" hits="71" branch="false" />
+                <line number="36" hits="71" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="113" branch="false" />
+            <line number="13" hits="114" branch="false" />
+            <line number="14" hits="107" branch="false" />
+            <line number="15" hits="107" branch="false" />
+            <line number="17" hits="44" branch="false" />
+            <line number="18" hits="44" branch="false" />
+            <line number="19" hits="44" branch="true" condition-coverage="100% (4/4)" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="24" hits="42" branch="false" />
+            <line number="25" hits="42" branch="false" />
+            <line number="26" hits="42" branch="false" />
+            <line number="27" hits="42" branch="false" />
+            <line number="28" hits="42" branch="false" />
+            <line number="30" hits="71" branch="false" />
+            <line number="31" hits="71" branch="false" />
+            <line number="32" hits="71" branch="false" />
+            <line number="33" hits="71" branch="false" />
+            <line number="34" hits="71" branch="false" />
+            <line number="35" hits="71" branch="false" />
+            <line number="36" hits="71" branch="false" />
+            <line number="39" hits="19" branch="false" />
+            <line number="40" hits="19" branch="true" condition-coverage="100% (6/6)" />
+            <line number="41" hits="19" branch="false" />
+            <line number="44" hits="11" branch="false" />
+            <line number="45" hits="11" branch="true" condition-coverage="100% (6/6)" />
+            <line number="46" hits="11" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinator.Coordinates" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\Models\Coordinates.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_X" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="355" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Y" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="328" branch="false" />
+              </lines>
+            </method>
+            <method name="IsInArea" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="15" hits="71" branch="false" />
+                <line number="16" hits="71" branch="true" condition-coverage="100% (6/6)" />
+                <line number="17" hits="71" branch="false" />
+                <line number="18" hits="71" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="209" branch="false" />
+                <line number="9" hits="209" branch="false" />
+                <line number="10" hits="209" branch="false" />
+                <line number="11" hits="209" branch="false" />
+                <line number="12" hits="209" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="355" branch="false" />
+            <line number="6" hits="328" branch="false" />
+            <line number="8" hits="209" branch="false" />
+            <line number="9" hits="209" branch="false" />
+            <line number="10" hits="209" branch="false" />
+            <line number="11" hits="209" branch="false" />
+            <line number="12" hits="209" branch="false" />
+            <line number="15" hits="71" branch="false" />
+            <line number="16" hits="71" branch="true" condition-coverage="100% (6/6)" />
+            <line number="17" hits="71" branch="false" />
+            <line number="18" hits="71" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinator.Exceptions.InvalidAreaException" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\Exceptions\InvalidAreaException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="false" />
+                <line number="12" hits="2" branch="false" />
+                <line number="13" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="2" branch="false" />
+            <line number="12" hits="2" branch="false" />
+            <line number="13" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinator.Exceptions.PlatformAreaOverlapException" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\Exceptions\PlatformAreaOverlapException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinator.Exceptions.PlatformOutOfBoundsException" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\Exceptions\PlatformOutOfBoundsException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinator.LandingPlatform" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\Models\LandingPlatform.cs" line-rate="1" branch-rate="1" complexity="16">
+          <methods>
+            <method name="AcceptRocketLandingRequest" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="20" hits="21" branch="false" />
+                <line number="21" hits="21" branch="true" condition-coverage="100% (2/2)" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="26" hits="20" branch="true" condition-coverage="100% (2/2)" />
+                <line number="27" hits="3" branch="false" />
+                <line number="28" hits="3" branch="false" />
+                <line number="31" hits="17" branch="true" condition-coverage="100% (2/2)" />
+                <line number="32" hits="5" branch="false" />
+                <line number="33" hits="5" branch="false" />
+                <line number="34" hits="5" branch="false" />
+                <line number="36" hits="12" branch="false" />
+                <line number="37" hits="12" branch="false" />
+                <line number="38" hits="12" branch="false" />
+                <line number="40" hits="17" branch="false" />
+                <line number="41" hits="21" branch="false" />
+              </lines>
+            </method>
+            <method name="PlatformAreaEncloses" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="44" hits="50" branch="false" />
+                <line number="45" hits="50" branch="true" condition-coverage="100% (2/2)" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="50" hits="49" branch="false" />
+                <line number="51" hits="50" branch="false" />
+              </lines>
+            </method>
+            <method name="ExistingRocketsClashWith" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="54" hits="20" branch="false" />
+                <line number="55" hits="75" branch="true" condition-coverage="100% (2/2)" />
+                <line number="56" hits="9" branch="false" />
+                <line number="57" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="58" hits="5" branch="false" />
+                <line number="59" hits="5" branch="false" />
+                <line number="62" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="63" hits="3" branch="false" />
+                <line number="64" hits="3" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="68" hits="17" branch="false" />
+                <line number="69" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="DoesOverLap" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="2" branch="false" />
+                <line number="73" hits="2" branch="false" />
+                <line number="74" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="26" branch="false" />
+                <line number="14" hits="26" branch="false" />
+                <line number="15" hits="26" branch="false" />
+                <line number="16" hits="26" branch="false" />
+                <line number="17" hits="26" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="26" branch="false" />
+            <line number="14" hits="26" branch="false" />
+            <line number="15" hits="26" branch="false" />
+            <line number="16" hits="26" branch="false" />
+            <line number="17" hits="26" branch="false" />
+            <line number="20" hits="21" branch="false" />
+            <line number="21" hits="21" branch="true" condition-coverage="100% (2/2)" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="20" branch="true" condition-coverage="100% (2/2)" />
+            <line number="27" hits="3" branch="false" />
+            <line number="28" hits="3" branch="false" />
+            <line number="31" hits="17" branch="true" condition-coverage="100% (2/2)" />
+            <line number="32" hits="5" branch="false" />
+            <line number="33" hits="5" branch="false" />
+            <line number="34" hits="5" branch="false" />
+            <line number="36" hits="12" branch="false" />
+            <line number="37" hits="12" branch="false" />
+            <line number="38" hits="12" branch="false" />
+            <line number="40" hits="17" branch="false" />
+            <line number="41" hits="21" branch="false" />
+            <line number="44" hits="50" branch="false" />
+            <line number="45" hits="50" branch="true" condition-coverage="100% (2/2)" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="50" hits="49" branch="false" />
+            <line number="51" hits="50" branch="false" />
+            <line number="54" hits="20" branch="false" />
+            <line number="55" hits="75" branch="true" condition-coverage="100% (2/2)" />
+            <line number="56" hits="9" branch="false" />
+            <line number="57" hits="9" branch="true" condition-coverage="100% (2/2)" />
+            <line number="58" hits="5" branch="false" />
+            <line number="59" hits="5" branch="false" />
+            <line number="62" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="63" hits="3" branch="false" />
+            <line number="64" hits="3" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="68" hits="17" branch="false" />
+            <line number="69" hits="20" branch="false" />
+            <line number="72" hits="2" branch="false" />
+            <line number="73" hits="2" branch="false" />
+            <line number="74" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinator.Rocket" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\Models\Rocket.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_RocketId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="52" branch="false" />
+              </lines>
+            </method>
+            <method name="get_LandingPosition" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="30" branch="false" />
+                <line number="17" hits="30" branch="false" />
+                <line number="18" hits="30" branch="false" />
+              </lines>
+            </method>
+            <method name="set_LandingPosition" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="20" hits="37" branch="false" />
+                <line number="21" hits="37" branch="false" />
+                <line number="22" hits="37" branch="true" condition-coverage="100% (2/2)" />
+                <line number="23" hits="36" branch="false" />
+                <line number="24" hits="36" branch="false" />
+                <line number="25" hits="36" branch="false" />
+                <line number="26" hits="36" branch="false" />
+                <line number="27" hits="36" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="37" branch="false" />
+              </lines>
+            </method>
+            <method name="LandingSpaceClashesWith" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="42" hits="15" branch="false" />
+                <line number="43" hits="15" branch="true" condition-coverage="100% (4/4)" />
+                <line number="44" hits="2" branch="false" />
+                <line number="45" hits="2" branch="false" />
+                <line number="48" hits="13" branch="false" />
+                <line number="49" hits="15" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="32" branch="false" />
+                <line number="36" hits="32" branch="false" />
+                <line number="37" hits="32" branch="false" />
+                <line number="38" hits="32" branch="false" />
+                <line number="39" hits="32" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="52" branch="false" />
+            <line number="16" hits="30" branch="false" />
+            <line number="17" hits="30" branch="false" />
+            <line number="18" hits="30" branch="false" />
+            <line number="20" hits="37" branch="false" />
+            <line number="21" hits="37" branch="false" />
+            <line number="22" hits="37" branch="true" condition-coverage="100% (2/2)" />
+            <line number="23" hits="36" branch="false" />
+            <line number="24" hits="36" branch="false" />
+            <line number="25" hits="36" branch="false" />
+            <line number="26" hits="36" branch="false" />
+            <line number="27" hits="36" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="37" branch="false" />
+            <line number="35" hits="32" branch="false" />
+            <line number="36" hits="32" branch="false" />
+            <line number="37" hits="32" branch="false" />
+            <line number="38" hits="32" branch="false" />
+            <line number="39" hits="32" branch="false" />
+            <line number="42" hits="15" branch="false" />
+            <line number="43" hits="15" branch="true" condition-coverage="100% (4/4)" />
+            <line number="44" hits="2" branch="false" />
+            <line number="45" hits="2" branch="false" />
+            <line number="48" hits="13" branch="false" />
+            <line number="49" hits="15" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinator.RocketLandingCoordinatorMain" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinator\RocketLandingCoordinatorMain.cs" line-rate="1" branch-rate="1" complexity="13">
+          <methods>
+            <method name="AddPlatform" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="3" branch="false" />
+                <line number="23" hits="3" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AddPlatform" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="27" hits="14" branch="false" />
+                <line number="28" hits="14" branch="false" />
+                <line number="30" hits="14" branch="true" condition-coverage="100% (2/2)" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="35" hits="42" branch="true" condition-coverage="100% (2/2)" />
+                <line number="36" hits="2" branch="false" />
+                <line number="37" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="12" branch="false" />
+                <line number="44" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="Check" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="3" branch="false" />
+                <line number="48" hits="3" branch="false" />
+                <line number="49" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="Check" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="52" hits="18" branch="false" />
+                <line number="53" hits="18" branch="true" condition-coverage="100% (2/2)" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="58" hits="36" branch="false" />
+                <line number="59" hits="17" branch="true" condition-coverage="100% (2/2)" />
+                <line number="60" hits="2" branch="false" />
+                <line number="61" hits="2" branch="false" />
+                <line number="64" hits="15" branch="false" />
+                <line number="65" hits="18" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="12" branch="false" />
+                <line number="14" hits="12" branch="false" />
+                <line number="15" hits="12" branch="false" />
+                <line number="16" hits="12" branch="false" />
+                <line number="17" hits="12" branch="false" />
+                <line number="18" hits="12" branch="false" />
+                <line number="19" hits="12" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="12" branch="false" />
+            <line number="14" hits="12" branch="false" />
+            <line number="15" hits="12" branch="false" />
+            <line number="16" hits="12" branch="false" />
+            <line number="17" hits="12" branch="false" />
+            <line number="18" hits="12" branch="false" />
+            <line number="19" hits="12" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="23" hits="3" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="27" hits="14" branch="false" />
+            <line number="28" hits="14" branch="false" />
+            <line number="30" hits="14" branch="true" condition-coverage="100% (2/2)" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="35" hits="42" branch="true" condition-coverage="100% (2/2)" />
+            <line number="36" hits="2" branch="false" />
+            <line number="37" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="12" branch="false" />
+            <line number="44" hits="12" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="48" hits="3" branch="false" />
+            <line number="49" hits="3" branch="false" />
+            <line number="52" hits="18" branch="false" />
+            <line number="53" hits="18" branch="true" condition-coverage="100% (2/2)" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="58" hits="36" branch="false" />
+            <line number="59" hits="17" branch="true" condition-coverage="100% (2/2)" />
+            <line number="60" hits="2" branch="false" />
+            <line number="61" hits="2" branch="false" />
+            <line number="64" hits="15" branch="false" />
+            <line number="65" hits="18" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="RocketLandingCoordinatorTests" line-rate="0.9940828402366864" branch-rate="1" complexity="26">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\devel\.nuget\packages\microsoft.net.test.sdk\16.11.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinatorTests.GeometeryTests" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinatorTests\GeometeryTests.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Coordinates_Correctly_Checks_If_It_Is_WithIn_An_Area" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="9" branch="false" />
+                <line number="23" hits="9" branch="false" />
+                <line number="24" hits="9" branch="false" />
+                <line number="27" hits="9" branch="false" />
+                <line number="30" hits="9" branch="false" />
+                <line number="31" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Area_Constructed_Incorrectly_Throw_InvalidAreaException" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="2" branch="false" />
+                <line number="38" hits="4" branch="false" />
+                <line number="39" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="Area_Correctly_Checks_If_It_Overlaps_Another_Area" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="9" branch="false" />
+                <line number="54" hits="9" branch="false" />
+                <line number="55" hits="9" branch="false" />
+                <line number="58" hits="9" branch="false" />
+                <line number="61" hits="9" branch="false" />
+                <line number="62" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="Area_Correctly_Checks_If_It_Surrounds_Another_Area" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="71" hits="5" branch="false" />
+                <line number="73" hits="5" branch="false" />
+                <line number="74" hits="5" branch="false" />
+                <line number="77" hits="5" branch="false" />
+                <line number="80" hits="5" branch="false" />
+                <line number="81" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="9" branch="false" />
+            <line number="23" hits="9" branch="false" />
+            <line number="24" hits="9" branch="false" />
+            <line number="27" hits="9" branch="false" />
+            <line number="30" hits="9" branch="false" />
+            <line number="31" hits="9" branch="false" />
+            <line number="37" hits="2" branch="false" />
+            <line number="38" hits="4" branch="false" />
+            <line number="39" hits="2" branch="false" />
+            <line number="52" hits="9" branch="false" />
+            <line number="54" hits="9" branch="false" />
+            <line number="55" hits="9" branch="false" />
+            <line number="58" hits="9" branch="false" />
+            <line number="61" hits="9" branch="false" />
+            <line number="62" hits="9" branch="false" />
+            <line number="71" hits="5" branch="false" />
+            <line number="73" hits="5" branch="false" />
+            <line number="74" hits="5" branch="false" />
+            <line number="77" hits="5" branch="false" />
+            <line number="80" hits="5" branch="false" />
+            <line number="81" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinatorTests.LandingPlatformTests" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinatorTests\LandingPlatformTests.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="LandingPlatform_Correctly_Checks_If_Incoming_Coordinates_Are_WithIn_Its_LandingArea" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="9" branch="false" />
+                <line number="22" hits="9" branch="false" />
+                <line number="23" hits="9" branch="false" />
+                <line number="24" hits="9" branch="false" />
+                <line number="27" hits="9" branch="false" />
+                <line number="30" hits="9" branch="false" />
+                <line number="31" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Coordinates_Are_Null_LandingPlatform_Returns_False" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="LandingPlatform_Returns_Ok_When_Accepts_A_Rocket" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="LandingPlatform_Returns_Ok_When_Accepts_New_Coordinates_For_Existing_Rocket" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="LandingPlatform_Returns_Clash_When_Coordinates_Close_To_An_Existing_Rocket" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="81" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="LandingPlatform_Returns_Out_When_Out_Of_Platforms_Area" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="97" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="106" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="9" branch="false" />
+            <line number="22" hits="9" branch="false" />
+            <line number="23" hits="9" branch="false" />
+            <line number="24" hits="9" branch="false" />
+            <line number="27" hits="9" branch="false" />
+            <line number="30" hits="9" branch="false" />
+            <line number="31" hits="9" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="106" hits="1" branch="false" />
+            <line number="107" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinatorTests.RocketLandingCoordinatorTests" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinatorTests\RocketLandingCoordinatorTests.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="RocketLandingCoordinatorMain_Returns_Ok_When_Accepts_Rocket" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Ok_When_Accepts_Rockets_On_Each_Platform" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Out_When_Out_Of_Range_Of_Area" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Out_When_Out_Of_Range_Of_Platform" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Out_When_Coordinates_Are_null" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Clash_When_Another_Rocket_Is_There" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="86" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Clash_When_Another_Rocket_Is_Directly_Next_To_Existing" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="101" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Ok_When_A_Rocket_Moves_And_Another_Takes_Its_Place" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="116" hits="1" branch="false" />
+                <line number="118" hits="1" branch="false" />
+                <line number="119" hits="1" branch="false" />
+                <line number="120" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+                <line number="122" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="126" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Ok_When_A_Rocket_Moves_And_comes_Back" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="136" hits="1" branch="false" />
+                <line number="138" hits="1" branch="false" />
+                <line number="139" hits="1" branch="false" />
+                <line number="140" hits="1" branch="false" />
+                <line number="141" hits="1" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="145" hits="1" branch="false" />
+                <line number="148" hits="1" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="150" hits="1" branch="false" />
+                <line number="151" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="RocketLandingCoordinatorMain_Returns_Ok_When_A_Rocket_Checks_The_Same_Location" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="155" hits="1" branch="false" />
+                <line number="157" hits="1" branch="false" />
+                <line number="158" hits="1" branch="false" />
+                <line number="159" hits="1" branch="false" />
+                <line number="160" hits="1" branch="false" />
+                <line number="163" hits="1" branch="false" />
+                <line number="166" hits="1" branch="false" />
+                <line number="167" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Platform_Not_In_LandingArea_RocketLandingCoordinatorMain_Throws_PlatformOutOfBoundsException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="171" hits="1" branch="false" />
+                <line number="173" hits="1" branch="false" />
+                <line number="176" hits="2" branch="false" />
+                <line number="177" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_Platform_Overlaps_Another_RocketLandingCoordinatorMain_Throws_PlatformAreaOverlapException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="181" hits="1" branch="false" />
+                <line number="183" hits="1" branch="false" />
+                <line number="184" hits="1" branch="false" />
+                <line number="187" hits="2" branch="false" />
+                <line number="188" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="118" hits="1" branch="false" />
+            <line number="119" hits="1" branch="false" />
+            <line number="120" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="122" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="136" hits="1" branch="false" />
+            <line number="138" hits="1" branch="false" />
+            <line number="139" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
+            <line number="141" hits="1" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="145" hits="1" branch="false" />
+            <line number="148" hits="1" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="150" hits="1" branch="false" />
+            <line number="151" hits="1" branch="false" />
+            <line number="155" hits="1" branch="false" />
+            <line number="157" hits="1" branch="false" />
+            <line number="158" hits="1" branch="false" />
+            <line number="159" hits="1" branch="false" />
+            <line number="160" hits="1" branch="false" />
+            <line number="163" hits="1" branch="false" />
+            <line number="166" hits="1" branch="false" />
+            <line number="167" hits="1" branch="false" />
+            <line number="171" hits="1" branch="false" />
+            <line number="173" hits="1" branch="false" />
+            <line number="176" hits="2" branch="false" />
+            <line number="177" hits="1" branch="false" />
+            <line number="181" hits="1" branch="false" />
+            <line number="183" hits="1" branch="false" />
+            <line number="184" hits="1" branch="false" />
+            <line number="187" hits="2" branch="false" />
+            <line number="188" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="RocketLandingCoordinatorTests.RocketTests" filename="C:\Users\devel\source\repos\RocketLandingCoordinator\RocketLandingCoordinatorTests\RocketTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Rocket_Correctly_Checks_If_Incoming_Coordinates_Clash_With_Its_LandingArea" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="9" branch="false" />
+                <line number="22" hits="9" branch="false" />
+                <line number="23" hits="9" branch="false" />
+                <line number="26" hits="9" branch="false" />
+                <line number="29" hits="9" branch="false" />
+                <line number="30" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="When_RocketLandingPosition_Is_Null_Return_False" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="When_RequestingCoordinates_Is_Null_Return_False" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="9" branch="false" />
+            <line number="22" hits="9" branch="false" />
+            <line number="23" hits="9" branch="false" />
+            <line number="26" hits="9" branch="false" />
+            <line number="29" hits="9" branch="false" />
+            <line number="30" hits="9" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

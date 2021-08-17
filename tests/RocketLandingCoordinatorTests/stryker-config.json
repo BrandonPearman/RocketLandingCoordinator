@@ -1,0 +1,24 @@
+{
+  "stryker-config": {
+    "reporters": [
+      "progress",
+      "html"
+    ],
+    "log-level": "info", // "trace", "debug", "info", "warning" ,"error"
+    "log-file": true,
+    "timeout-ms": 10000,
+    "project-file": "RocketLandingCoordinator.csproj",
+    "max-concurrent-test-runners": 10, // "-1" = disable // default = your number of logical processors / 2
+    "threshold-high": 80, // acceptable score
+    "threshold-low": 70, // warning score
+    "threshold-break": 60, // not acceptable score
+    "mutation-level": "Complete", // "Basic", "Standard", "Advanced", "Complete" 
+    "mutate": [ "*"],
+    "excluded-mutations": [
+      // "string", "Logical operators"
+    ],
+    "ignore-methods": [
+      // "*Log*", "ToString", "*HashCode*"
+    ]
+  }
+}
